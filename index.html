@@ -50,11 +50,17 @@
             height: auto;
             margin: 20px 0;
         }
-        .h3 {
-            font-size: 40px;
-            font-style: bold;
+        .image-container {
+            border: 3px solid black;
+            margin: 20px auto;
+            width: 60%; /* Adjust the width as needed */
+            box-sizing: border-box; /* Includes padding and border in the width */
+        }
+        .caption {
+            font-size: 24px;
+            font-weight: bold;
             color: black;
-            margin: 10px 0;
+            margin: 0;
             padding: 10px 0;
         }
         @media screen and (max-width: 600px) {
@@ -70,15 +76,16 @@
 </head>
 <body>
     <h1>WASA WASA MEME CLUB</h1>
-    <h2>Financially independelly since 20xx</h2>
+    <h2>Financially independent since 20xx</h2>
     <nav>
         <a href="https://magiceden.io/ordinals/marketplace/wasa-wasa-meme-club" target="_blank">Ordinals collection</a>
         <a href="https://ordiscan.com/rune/WASAWASAMEMECOIN" target="_blank">WASA•WASA•MEME•COIN</a>
         <a href="https://twitter.com/wasawasaclub" target="_blank">Twitter</a>
         <a href="https://github.com/wasa-wasa-meme-club" target="_blank">GitHub</a>
     </nav>
-     <h3>Deal with it!</h3>
-    <img src="https://ordinals.com/content/10265b9ff0c92bd3a2bd96ea6619e2637d13e246ab6cad1f11a0923ded70c128i0" alt="WASA WASA MEME CLUB Image">
-   
+    <div class="image-container">
+        <h3 class="caption">Deal with it!</h3>
+        <img src="https://ordinals.com/content/10265b9ff0c92bd3a2bd96ea6619e2637d13e246ab6cad1f11a0923ded70c128i0" alt="WASA WASA MEME CLUB Image">
+    </div>
 </body>
 </html>
