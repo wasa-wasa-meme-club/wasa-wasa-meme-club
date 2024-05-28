@@ -6,7 +6,7 @@
 ## Financially Independantely since 20xx
 
 
-Ordinal Collection: [WASA WASA MEME CLUB](https://ordimint.com/ordinal-collections/wasawasamemeclub)
+Club Member Cards: [WASA WASA MEME CLUB](https://ordimint.com/ordinal-collections/wasawasamemeclub)
 
 Wasa Wasa Meme Coin: [WASA•WASA•MEME•COIN](https://www.ord.io/WASAWASAMEMECOIN)
 
