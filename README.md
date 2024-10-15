@@ -12,5 +12,7 @@
 
 [wasawasa.club](https://wasawasa.club)
 
+![image](https://github.com/user-attachments/assets/1e770bb4-c402-43b1-b0c2-62e02b09ad10)
+
 
 ### Everything for the lols
