@@ -12,6 +12,8 @@
 
 [wasawasa.club](https://wasawasa.club)
 
+[Telegram](https://t.me/+9W3snCAA_sNmMDNk)
+
 ![image](https://github.com/user-attachments/assets/1e770bb4-c402-43b1-b0c2-62e02b09ad10)
 
 
