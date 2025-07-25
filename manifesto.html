@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manifesto - WASA WASA MEME CLUB</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Manifesto of the WASA WASA MEME CLUB">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        customYellow: '#dfe84f',
+                    },
+                    fontFamily: {
+                        pixelOperator: ['"Pixel Operator"', 'monospace'],
+                    },
+                    fontSize: {
+                        h1: ['64px', '1.2'],
+                        h2: ['48px', '1.2'],
+                        'deal': ['60px', '1.2'],
+                    },
+                },
+            },
+            plugins: [
+                function ({ addUtilities }) {
+                    addUtilities({
+                        '.text-shadow': {
+                            'text-shadow': '2px 2px 0px #000000',
+                        },
+                    })
+                },
+            ],
+        }
+    </script>
+
+    <!-- Custom Font -->
+    <style>
+        @font-face {
+            font-family: 'Pixel Operator';
+            src: url('PixelOperator.ttf') format('truetype');
+        }
+    </style>
+</head>
+<body class="bg-black text-customYellow font-pixelOperator min-h-screen flex flex-col justify-center items-center text-center p-4">
+    <h1 class="text-h1 font-extrabold text-shadow mb-6">MANIFESTO</h1>
+
+    <ul class="text-3xl space-y-2 mb-8 text-shadow">
+        <li>We are a cult</li>
+        <li>Buy high, sell low</li>
+        <li>Dumb money only</li>
+        <li>Ignore the charts</li>
+        <li>To the moon</li>
+    </ul>
+
+    <hr class="w-1/2 border-t-4 border-customYellow mb-6">
+
+    <div class="text-deal font-bold text-shadow">
+        Deal with it!
+    </div>
+</body>
+</html>
